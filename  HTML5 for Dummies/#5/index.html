@@ -7,19 +7,37 @@
     rel="stylesheet"
     href="/css/style.css"
     type="text/css"/>
+
+    <script
+    type="text/javascript"
+    src = "Function.js">
+    </script>
   </head>
 
-  <body>
+  <body onload = "init()">
     <h1> For Loops </h1>
 
     <form action="">
       <fieldset>
-        <button type="button" onclick="count()">count to 10</button>
-        <button type="button" onclick="back()">count backwards</button>
-        <button type="button" onclick="byFive()">count by fives</button>
-      </fieldset>
-      </form>
 
-      <div id="output">Click a button to see some good counting</div>
+        <button
+        type="button"
+        onclick="count()">
+        count to 10 </button>
+
+        <button
+        type="button"
+        onclick="back()">
+        count backwards</button>
+
+        <button
+        type="button"
+        onclick="byFive()">
+        count by fives</button>
+
+      </fieldset>
+    </form>
+
+    <div id = "output">Click a button to see some good counting</div>
   </body>
 </html>
